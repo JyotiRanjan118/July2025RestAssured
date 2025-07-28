@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-public class GoRestAPITest {
+public class Session01_2_GoRestAPITest {
 	
 	@Test
 	public void getSingleUser() {

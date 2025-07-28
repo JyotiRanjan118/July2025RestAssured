@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class ContactAPITest {
+public class Session01_01_ContactAPITest {
 	
 	@BeforeMethod
 	public void setUp() {
@@ -44,8 +44,7 @@ public class ContactAPITest {
 							.then().log().all()
 								.assertThat()
 									.statusCode(401);
-									
-	}
+		}
 	
 	@Test
 	public void getContactInvalidTokenTest() {
