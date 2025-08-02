@@ -59,5 +59,6 @@ public class Session01_01_ContactAPITest {
 		
 		System.out.println(errorMsg);
 		Assert.assertEquals(errorMsg, "Please authenticate.");
+		
 	}
 }
